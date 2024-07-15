@@ -1,0 +1,7 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "files.autoSave": "onFocusChange",
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "prettier.requireConfig": true
+}
