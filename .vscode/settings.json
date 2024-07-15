@@ -3,5 +3,11 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "files.autoSave": "onFocusChange",
   "typescript.tsdk": "node_modules/typescript/lib",
-  "prettier.requireConfig": true
+  "prettier.requireConfig": true,
+  "files.associations": {
+    "*.html": "html",
+    "*.ts": "typescript",
+    "*.tsx": "typescriptreact",
+    "*.jsx": "javascriptreact"
+  }
 }

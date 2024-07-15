@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ユーザー情報取得</title>
+  </head>
+  <body>
+    <h1>ユーザー情報取得アプリケーション</h1>
+    <input type="text" id="userId" placeholder="ユーザーIDを入力" value="1" />
+    <button onclick="fetchUserInfo()">ユーザー情報取得</button>
+    <div id="loading" style="display: none">ローディング中...</div>
+    <div id="error"></div>
+    <div id="userInfo"></div>
+    <script src="/index.tsx" defer></script>
+  </body>
+</html>
