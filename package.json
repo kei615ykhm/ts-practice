@@ -28,11 +28,11 @@
     "prettier": "^3.3.3"
   },
   "scripts": {
-  "dev": "next dev",
-  "build": "next build",
-  "start": "next start",
-  "lint": "next lint",
-  "format": "prettier --write .",
-  "lint:markup": "markuplint \"**/*.{html,jsx,tsx}\""
-}
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --write .",
+    "lint:markup": "markuplint \"**/*.{html,jsx,tsx}\""
+  }
 }
